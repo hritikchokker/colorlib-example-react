@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 20px 0;
+  align-items: center;
+}
+.logo {
+  width: 15%;
+  padding-right: 20px;
+}
+.last_items {
+  display: flex;
+  width: 15%;
+  justify-content: flex-end;
+}
+
+.nav_wrapper {
+  display: flex;
+  width: 60%;
+  list-style: none;
+}
+
+.nav_wrapper > li:not(:first-child) {
+  padding-left: 50px;
+}
+.navlink {
+  text-decoration: none;
+}
+
+.last_items > p:not(:first-child) {
+  padding-left: 30px;
+}
